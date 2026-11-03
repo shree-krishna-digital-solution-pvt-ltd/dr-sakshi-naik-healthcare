@@ -18,7 +18,7 @@ export default function AboutPage({ onNavigateHome, onBookAppointment }) {
       <AboutBanner onNavigateHome={onNavigateHome} />
 
       {/* 2. About Doctor & Patient Care Philosophy Section (Welcome To Dr. Sakshi Naik) */}
-      <DoctorPatientCareSection onBookAppointment={onBookAppointment} />
+      <DoctorPatientCareSection page="about" onBookAppointment={onBookAppointment} />
 
       {/* 3. Qualifications & Training Section (Expert Care for Women’s & Fertility Health) */}
       <QualificationsSection onBookAppointment={onBookAppointment} />

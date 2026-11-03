@@ -46,7 +46,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
           {/* LEFT: Brand Clinic Logo & Doctor Name */}
           <div className="flex items-center">
             <a
-              href="#home"
+              href="#/"
               onClick={(e) => {
                 if (onNavigate) {
                   e.preventDefault();
@@ -59,7 +59,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
               <img
                 src="/images/logo/logo.png"
                 alt={`${clinicInfo.doctorName} Logo`}
-                className="h-[72px] sm:h-[74px] lg:h-[82px] w-auto object-contain shrink-0 transition-transform duration-200 group-hover:scale-105"
+                width="82" height="82" className="h-[72px] sm:h-[74px] lg:h-[82px] w-auto object-contain shrink-0 transition-transform duration-200 group-hover:scale-105"
               />
 
               {/* Brand Typography */}
@@ -83,7 +83,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
           {/* CENTER: Navigation Links */}
           <nav className="hidden lg:flex items-center space-x-7">
             <a
-              href="#home"
+              href="#/"
               onClick={(e) => {
                 if (onNavigate) {
                   e.preventDefault();
@@ -97,7 +97,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
             </a>
 
             <a
-              href="#about"
+              href="#/womens-healthcare-specialist-goregaon"
               onClick={(e) => {
                 if (onNavigate) {
                   e.preventDefault();
@@ -200,7 +200,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
             </div>
 
             <a
-              href="#faq"
+              href="#/pregnancy-care-faqs"
               onClick={(e) => {
                 e.preventDefault();
                 if (onNavigate) {
@@ -215,7 +215,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
             </a>
 
             <a
-              href="#contact"
+              href="#/gynaecologist-clinic-near-goregaon"
               onClick={(e) => {
                 e.preventDefault();
                 if (onNavigate) {
@@ -281,7 +281,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2.5 rounded-lg text-[#222B40] hover:text-[#0B5DA7] hover:bg-gray-100"
+              className="p-2.5 rounded-lg text-[#222B40] hover:text-[#0B5DA7] hover:bg-gray-100" aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
             >
               {mobileMenuOpen ? (
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -302,7 +302,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
       {mobileMenuOpen && (
         <div className="lg:hidden bg-white border-b border-gray-200 px-4 pt-3 pb-6 space-y-3">
           <a
-            href="#home"
+            href="#/"
             onClick={(e) => {
               setMobileMenuOpen(false);
               if (onNavigate) {
@@ -316,7 +316,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
             Home
           </a>
           <a
-            href="#about"
+            href="#/womens-healthcare-specialist-goregaon"
             onClick={(e) => {
               setMobileMenuOpen(false);
               if (onNavigate) {
@@ -362,7 +362,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
             )}
           </div>
           <a
-            href="#faq"
+            href="#/pregnancy-care-faqs"
             onClick={(e) => {
               e.preventDefault();
               setMobileMenuOpen(false);
@@ -377,7 +377,7 @@ export default function Header({ onBookAppointment, currentPage = 'home', onNavi
             FAQ
           </a>
           <a
-            href="#contact"
+            href="#/gynaecologist-clinic-near-goregaon"
             onClick={(e) => {
               e.preventDefault();
               setMobileMenuOpen(false);

@@ -4,16 +4,17 @@
 import { treatmentsData, dropdownLeftTreatments, dropdownRightTreatments } from './treatmentsData.js';
 
 export const navLinks = [
-  { label: 'Home', href: '#home', page: 'home', isDirectLink: true },
-  { label: 'About', href: '#about', page: 'about', isDirectLink: true },
+  { label: 'Home', href: '#/', page: 'home', isDirectLink: true },
+  { label: 'About', href: '#/womens-healthcare-specialist-goregaon', page: 'about', isDirectLink: true },
   { label: 'Treatments', href: '#treatments', isDropdown: true },
-  { label: 'FAQ', href: '#faq', isDirectLink: true },
-  { label: 'Contact', href: '#contact', isDirectLink: true },
+  { label: 'FAQ', href: '#/pregnancy-care-faqs', isDirectLink: true },
+  { label: 'Contact', href: '#/gynaecologist-clinic-near-goregaon', isDirectLink: true },
 ];
 
 export const treatmentDropdownItems = treatmentsData.map((item) => ({
   name: item.title,
   slug: item.slug,
+  legacySlug: item.legacySlug,
   href: `#/treatments/${item.slug}`,
   category: item.category,
 }));

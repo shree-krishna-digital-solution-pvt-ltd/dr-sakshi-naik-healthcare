@@ -28,8 +28,8 @@ export const careFeaturesData = [
   {
     id: 4,
     icon: '/images/icons/laparoscopy.png',
-    title: 'Pelvic Health & Rehabilitation',
-    desc: 'Advanced urogynaecology, pelvic floor recovery protocols, minimally invasive surgical aftercare, and dedicated supportive therapy.',
+    title: 'Pelvic Health And Rehabilitation',
+    desc: "Advanced urogynaecology, pelvic floor recovery protocols, minimally invasive surgical aftercare, and dedicated supportive therapy from a Women's Healthcare Specialist in Goregaon.",
     linkColor: 'text-[#F35858] hover:text-[#e23f3f]',
   },
 ];

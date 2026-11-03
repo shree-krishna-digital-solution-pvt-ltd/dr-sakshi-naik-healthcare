@@ -91,7 +91,7 @@ export default function PatientTestimonialsSection() {
                       <div className="shrink-0 h-[270px] sm:h-[330px] md:h-[370px] flex items-center justify-center">
                         <img
                           src="/images/testimonial/shape/01.png"
-                          alt="{"
+                          alt="" aria-hidden="true" width="50" height="370"
                           className="h-full w-auto object-contain select-none pointer-events-none drop-shadow-[0_2px_4px_rgba(32,155,227,0.15)]"
                           draggable="false"
                         />
@@ -124,9 +124,9 @@ export default function PatientTestimonialsSection() {
 
                         {/* Patient Name & Details */}
                         <div className="mt-2.5 px-0">
-                          <h4 className="text-sm sm:text-base font-bold text-[#222B40] tracking-tight">
+                          <p className="text-sm sm:text-base font-bold text-[#222B40] tracking-tight">
                             {story.name}
-                          </h4>
+                          </p>
                           <p className="text-xs text-[#0B5DA7] font-semibold mt-0.5">
                             {story.role}
                           </p>
@@ -151,7 +151,7 @@ export default function PatientTestimonialsSection() {
                       <div className="shrink-0 h-[270px] sm:h-[330px] md:h-[370px] flex items-center justify-center">
                         <img
                           src="/images/testimonial/shape/02.png"
-                          alt="}"
+                          alt="" aria-hidden="true" width="50" height="370"
                           className="h-full w-auto object-contain select-none pointer-events-none drop-shadow-[0_2px_4px_rgba(32,155,227,0.15)]"
                           draggable="false"
                         />
@@ -171,7 +171,7 @@ export default function PatientTestimonialsSection() {
                   type="button"
                   onClick={() => setCurrentIndex(idx)}
                   aria-label={`Go to testimonial ${idx + 1}`}
-                  className={`h-2 rounded-full transition-all duration-300 ${
+                  className={`h-2 rounded-full transition-colors duration-200 ${
                     currentIndex === idx
                       ? 'w-7 bg-[#0B5DA7]'
                       : 'w-2 bg-slate-300 hover:bg-slate-400'

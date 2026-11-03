@@ -19,13 +19,34 @@ import { clinicInfo } from '../data/clinicInfo.js';
  *     5. Frequently Asked Questions (Interactive Accordion)
  *     6. Book Appointment CTA Button
  */
+// Helper to render text with only 1 visual keyword highlight
+function renderWithSingleHighlight(text, keyword) {
+  if (!text || !keyword) return text;
+  const lowerText = text.toLowerCase();
+  const lowerKeyword = keyword.toLowerCase();
+  const idx = lowerText.indexOf(lowerKeyword);
+  if (idx === -1) return text;
+
+  const before = text.slice(0, idx);
+  const match = text.slice(idx, idx + keyword.length);
+  const after = text.slice(idx + keyword.length);
+
+  return (
+    <>
+      {before}
+      <strong className="font-semibold text-[#0B5DA7]">{match}</strong>
+      {after}
+    </>
+  );
+}
+
 export default function TreatmentDetailPage({
   slug,
   onNavigateHome,
   onNavigateTreatment,
   onBookAppointment,
 }) {
-  const [currentSlug, setCurrentSlug] = useState(slug || 'maternity-care');
+  const [currentSlug, setCurrentSlug] = useState(slug || 'pregnancy-care-goregaon');
   const dateInputRef = useRef(null);
 
   useEffect(() => {
@@ -36,7 +57,9 @@ export default function TreatmentDetailPage({
 
   const treatment =
     treatmentsData.find((t) => t.slug === currentSlug) ||
+    treatmentsData.find((t) => t.legacySlug === currentSlug) ||
     treatmentsData.find((t) => t.slug === slug) ||
+    treatmentsData.find((t) => t.legacySlug === slug) ||
     treatmentsData[0];
 
   useEffect(() => {
@@ -436,13 +459,17 @@ export default function TreatmentDetailPage({
                   className="text-sm sm:text-[15px] md:text-base text-slate-600 leading-relaxed mb-4 font-normal"
                   style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
                 >
-                  {treatment.description}
+                  {treatment.seoKeyword && treatment.description && treatment.description.toLowerCase().includes(treatment.seoKeyword.toLowerCase())
+                    ? renderWithSingleHighlight(treatment.description, treatment.seoKeyword)
+                    : treatment.description}
                 </p>
                 <p
                   className="text-sm sm:text-[15px] md:text-base text-slate-600 leading-relaxed font-normal"
                   style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
                 >
-                  {treatment.overview}
+                  {treatment.seoKeyword && treatment.description && !treatment.description.toLowerCase().includes(treatment.seoKeyword.toLowerCase())
+                    ? renderWithSingleHighlight(treatment.overview, treatment.seoKeyword)
+                    : treatment.overview}
                 </p>
               </div>
 
@@ -458,7 +485,7 @@ export default function TreatmentDetailPage({
                   className="text-slate-600 text-sm sm:text-[15px] leading-relaxed mb-4 font-normal"
                   style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
                 >
-                  Every woman's health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik can help you find clear answers, peace of mind, and gentle care:
+                  {treatment.solutionsIntro || "Every woman's health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik can help you find clear answers, peace of mind, and gentle care:"}
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
                   {(treatment.situationsRecommended || treatment.highlights).map((item, idx) => {
@@ -508,7 +535,7 @@ export default function TreatmentDetailPage({
                   className="text-slate-600 text-sm sm:text-[15px] leading-relaxed mb-4 font-normal"
                   style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
                 >
-                  We focus on early detection, gentle treatments, and clear advice so you can feel healthy, confident, and supported at every visit:
+                  {treatment.benefitsIntro || "We focus on early detection, gentle treatments, and clear advice so you can feel healthy, confident, and supported at every visit:"}
                 </p>
                 <div className="bg-[#F9FAFC] rounded-md p-5 sm:p-6 border border-slate-100">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">

@@ -7,7 +7,10 @@
 export const treatmentsData = [
   {
     id: 1,
-    slug: 'maternity-care',
+    slug: 'pregnancy-care-goregaon',
+    legacySlug: 'maternity-care',
+    metaTitle: 'Pregnancy Care In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik provides expert pregnancy care in Goregaon, offering personalized prenatal consultations, regular health monitoring, and compassionate support for a healthy pregnancy.',
     title: 'Maternity Care',
     tabTitle: 'Maternity Care',
     category: 'Obstetrics & Pregnancy',
@@ -17,7 +20,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/maternity-care-banner.jpg',
     clinicalImage: '/images/care/details/maternity-care-clinical.jpg',
     description:
-      'Having a baby is one of life’s most special journeys. We are with you every step of the way—offering caring checkups, baby growth scans, and friendly answers to all your questions from early pregnancy through after your baby arrives.',
+      'Having a baby is one of life’s most special journeys. The Best Gynaecologist in Goregaon supports you every step of the way, offering caring checkups, baby growth scans, and friendly answers to all your questions from early pregnancy through after your baby arrives.',
     highlights: [
       'Caring support through every month of pregnancy',
       'Regular checkups to keep you and baby healthy',
@@ -32,7 +35,12 @@ export const treatmentsData = [
       'Support After Baby Arrives',
     ],
     overview:
-      'Every pregnancy is different, and you deserve care that feels calm, gentle, and unhurried. Dr. Sakshi Naik takes the time to listen to your feelings, track your baby’s healthy development, and make sure you feel confident and supported from week one to delivery day.',
+      'Every pregnancy is different, and you deserve care that feels calm, gentle, and unhurried. Dr. Sakshi Naik provides Pregnancy Care in Goregaon, taking time to listen to your feelings, track your baby’s healthy development, and make sure you feel confident and supported from week one to delivery day.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik for Pregnancy Care in Goregaon can help you find clear answers, peace of mind, and gentle care.',
+    benefitsIntro:
+      'We focus on early detection, gentle treatments, and clear advice through Pregnancy Care in Goregaon so you can feel healthy, confident, and supported at every visit.',
+    seoKeyword: 'Pregnancy Care in Goregaon',
     situationsRecommended: [
       {
         text: 'You just found out you are pregnant and want to begin your regular checkups',
@@ -93,7 +101,10 @@ export const treatmentsData = [
   },
   {
     id: 2,
-    slug: 'labour-and-delivery',
+    slug: 'labour-and-delivery-hospital-goregaon',
+    legacySlug: 'labour-and-delivery',
+    metaTitle: 'Labour And Delivery Hospital In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik offers expert maternity care in Goregaon, providing personalized labour guidance, delivery support, and compassionate care for mothers and newborns.',
     title: 'Labour and Delivery',
     tabTitle: 'Labour and Delivery',
     category: 'Obstetrics & Pregnancy',
@@ -103,7 +114,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/labour-delivery-banner.jpg',
     clinicalImage: '/images/care/details/labour-delivery-clinical.jpg',
     description:
-      'Bringing your baby into the world should feel calm, safe, and deeply supported. We guide you through gentle birth preparation, encourage natural delivery whenever possible, and stay by your side with 24/7 care.',
+      'Bringing your baby into the world should feel calm, safe, and deeply supported. At a Labour and Delivery Hospital in Goregaon, we guide you through gentle birth preparation, encourage natural delivery whenever possible, and stay by your side with 24/7 care.',
     highlights: [
       'Personalized delivery guidance and birth planning',
       'Encouragement for gentle, natural normal birth',
@@ -118,7 +129,10 @@ export const treatmentsData = [
       '24/7 Delivery Team On Hand',
     ],
     overview:
-      'Dr. Sakshi Naik believes every mother deserves a respectful, reassuring birthing experience. Whether you are aiming for a natural vaginal birth, considering painless delivery options, or need a safe planned delivery, we prioritize your comfort, dignity, and baby’s safety at every moment.',
+      'Dr. Sakshi Naik believes every mother deserves a respectful, reassuring birthing experience. At a Labour and Delivery Hospital in Goregaon, whether you are aiming for a natural vaginal birth, considering painless delivery options, or need a safe planned delivery, we prioritize your comfort, dignity, and baby’s safety at every moment.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. At a Labour and Delivery Hospital in Goregaon, consulting Dr. Sakshi Naik can help you find clear answers, peace of mind, and gentle care for common situations and symptoms.',
+    seoKeyword: 'Labour and Delivery Hospital in Goregaon',
     situationsRecommended: [
       {
         text: 'You are in your third trimester and want to create a calm, personalized birth plan',
@@ -179,7 +193,10 @@ export const treatmentsData = [
   },
   {
     id: 3,
-    slug: 'high-risk-pregnancy-care',
+    slug: 'high-risk-pregnancy-care-goregaon',
+    legacySlug: 'high-risk-pregnancy-care',
+    metaTitle: 'High Risk Pregnancy Care In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik provides high-risk pregnancy care in Goregaon, offering specialized monitoring, personalized medical guidance, and compassionate support for mothers and babies.',
     title: 'High-Risk Pregnancy Care',
     tabTitle: 'High-Risk Pregnancy Care',
     category: 'Maternal-Fetal Medicine',
@@ -189,7 +206,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/high-risk-pregnancy-banner.jpg',
     clinicalImage: '/images/care/details/high-risk-pregnancy-clinical.jpg',
     description:
-      'When a pregnancy needs extra medical attention, we provide close, watchful care and constant reassurance. From blood pressure and blood sugar tracking to multiple babies, we help keep you and your baby safe all the way to delivery.',
+      'When a pregnancy needs extra medical attention, we provide close, watchful care and constant reassurance. Our High Risk Pregnancy Care in Goregaon includes blood pressure and blood sugar tracking, multiple-baby pregnancies, helping keep you and your baby safe all the way to delivery.',
     highlights: [
       'Specialized care for complex and high-risk pregnancies',
       'Frequent health checks and growth scans',
@@ -204,7 +221,10 @@ export const treatmentsData = [
       'Specialist Hospital Backup',
     ],
     overview:
-      'Hearing that your pregnancy is high-risk can feel scary, but with the right care and early steps, most mothers go on to have healthy babies. Dr. Sakshi Naik monitors you closely, explains every test in plain words, and stays ahead of potential issues so you can breathe easier.',
+      'Hearing that your pregnancy is high-risk can feel scary, but with the right High Risk Pregnancy Care in Goregaon and early steps, most mothers go on to have healthy babies. Dr. Sakshi Naik monitors you closely, explains every test in plain words, and stays ahead of potential issues so you can breathe easier.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. With High Risk Pregnancy Care in Goregaon, consulting Dr. Sakshi Naik can help you find clear answers, peace of mind, and gentle care for common situations and symptoms.',
+    seoKeyword: 'High Risk Pregnancy Care in Goregaon',
     situationsRecommended: [
       {
         text: 'You are expecting a baby at age 35 or older',
@@ -265,7 +285,10 @@ export const treatmentsData = [
   },
   {
     id: 4,
-    slug: 'preconception-counselling',
+    slug: 'pregnancy-planning-doctor-goregaon',
+    legacySlug: 'preconception-counselling',
+    metaTitle: 'Pregnancy Planning Doctor In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik, a Pregnancy Planning Doctor in Goregaon, offers personalized preconception counselling, fertility guidance, and expert care for a healthy pregnancy journey.',
     title: 'Preconception Counselling',
     tabTitle: 'Preconception Counselling',
     category: 'Reproductive Health',
@@ -275,7 +298,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/preconception-banner.jpg',
     clinicalImage: '/images/care/details/preconception-clinical.jpg',
     description:
-      'Planning for a baby starts well before you see a positive test. We help you and your partner check your health, correct vitamin levels, balance your hormones, and enter pregnancy feeling ready and confident.',
+      'Planning for a baby starts well before you see a positive test. A Pregnancy Planning Doctor in Goregaon helps you and your partner check your health, correct vitamin levels, balance your hormones, and enter pregnancy feeling ready and confident.',
     highlights: [
       'Pre-pregnancy consultation and health planning',
       'Routine blood and vitamin assessments before conception',
@@ -290,7 +313,10 @@ export const treatmentsData = [
       'Friendly Couple Guidance',
     ],
     overview:
-      'Preparing your body ahead of time gives your future baby the healthiest possible start. Dr. Sakshi Naik sits down with couples to review everyday habits, track fertile days, adjust any regular medicines, and make sure you feel completely supported on your road to parenthood.',
+      'Preparing your body ahead of time gives your future baby the healthiest possible start. Dr. Sakshi Naik, a Pregnancy Planning Doctor in Goregaon, sits down with couples to review everyday habits, track fertile days, adjust any regular medicines, and make sure you feel completely supported on your road to parenthood.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik, a Pregnancy Planning Doctor in Goregaon, can help you find clear answers, peace of mind, and gentle care.',
+    seoKeyword: 'Pregnancy Planning Doctor in Goregaon',
     situationsRecommended: [
       {
         text: 'You and your partner are planning to start trying for a baby soon',
@@ -351,7 +377,10 @@ export const treatmentsData = [
   },
   {
     id: 5,
-    slug: 'adolescence-and-menopause-care',
+    slug: 'menopause-treatment-goregaon',
+    legacySlug: 'adolescence-and-menopause-care',
+    metaTitle: 'Menopause Treatment In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik offers menopause treatment in Goregaon, providing personalized care, symptom management, and expert guidance to support women’s health and well-being.',
     title: 'Adolescence and Menopause Care',
     tabTitle: 'Adolescence & Menopause Care',
     category: 'Lifecycle Wellness',
@@ -361,7 +390,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/adolescence-menopause-banner.jpg',
     clinicalImage: '/images/care/details/adolescence-menopause-clinical.jpg',
     description:
-      'From your very first period to your transition through menopause, a woman’s body goes through major changes. We provide kind, understanding care for teens dealing with period problems, as well as comforting solutions for women navigating menopause.',
+      'From your very first period to your transition through menopause, a woman’s body goes through major changes. We provide kind, understanding care for teens dealing with period problems, as well as comforting Menopause Treatment in Goregaon solutions for women navigating menopause.',
     highlights: [
       'Gentle care for teenage period cramps and irregular cycles',
       'Help with teenage hormonal concerns and PCOS',
@@ -376,7 +405,10 @@ export const treatmentsData = [
       'Bone & Hormone Wellness',
     ],
     overview:
-      'Hormonal shifts can affect your mood, sleep, energy, and self-confidence. Dr. Sakshi Naik provides a warm, private space where young girls and mature women alike can speak openly without feeling judged, finding gentle, lasting relief that fits their daily lives.',
+      'Hormonal shifts can affect your mood, sleep, energy, and self-confidence. Dr. Sakshi Naik, offering Menopause Treatment in Goregaon, provides a warm, private space where young girls and mature women alike can speak openly without feeling judged, finding gentle, lasting relief that fits their daily lives.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik for Menopause Treatment in Goregaon can help you find clear answers, peace of mind, and gentle care.',
+    seoKeyword: 'Menopause Treatment in Goregaon',
     situationsRecommended: [
       {
         text: 'Young girls suffering from severe period pain, heavy bleeding, or missed cycles',
@@ -437,7 +469,10 @@ export const treatmentsData = [
   },
   {
     id: 6,
-    slug: 'fertility-care-and-counselling',
+    slug: 'fertility-counselling-goregaon',
+    legacySlug: 'fertility-care-and-counselling',
+    metaTitle: 'Fertility Counselling In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik offers fertility counselling in Goregaon, providing personalized guidance, reproductive health assessments, and expert support to help couples plan their parenthood journey.',
     title: 'Fertility Care and Counselling',
     tabTitle: 'Fertility Care & Counselling',
     category: 'Fertility & Conception',
@@ -447,7 +482,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/fertility-care-banner.jpg',
     clinicalImage: '/images/care/details/fertility-care-clinical.jpg',
     description:
-      'If conceiving is taking longer than you hoped, know that you are not alone. We offer gentle fertility testing, honest medical advice, and warm emotional encouragement to help you and your partner take clear, confident steps forward.',
+      'If conceiving is taking longer than you hoped, know that you are not alone. We offer gentle fertility testing, honest medical advice, and Fertility Counselling in Goregaon with warm emotional encouragement to help you and your partner take clear, confident steps forward.',
     highlights: [
       'Gentle fertility consultation and couple evaluation',
       'Simple, step-by-step testing for both partners',
@@ -462,7 +497,10 @@ export const treatmentsData = [
       'Caring Couple Counselling',
     ],
     overview:
-      'Trying to have a baby can be emotionally exhausting, and it is easy to feel overwhelmed by internet advice. Dr. Sakshi Naik takes a simple, step-by-step approach—identifying the exact cause, avoiding unnecessary tests, and giving you clear, hopeful options that feel right for you.',
+      'Trying to have a baby can be emotionally exhausting, and it is easy to feel overwhelmed by internet advice. Dr. Sakshi Naik provides Fertility Counselling In Goregaon through a simple, step-by-step approach—identifying the exact cause, avoiding unnecessary tests, and giving you clear, hopeful options that feel right for you.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik for Fertility Counselling in Goregaon can help you find clear answers, peace of mind, and gentle care.',
+    seoKeyword: 'Fertility Counselling in Goregaon',
     situationsRecommended: [
       {
         text: 'You have been trying to conceive for a year (or 6 months if age 35 or older)',
@@ -523,7 +561,10 @@ export const treatmentsData = [
   },
   {
     id: 7,
-    slug: 'iui-ivf-icsi-tesa',
+    slug: 'iui-ivf-treatment-goregaon',
+    legacySlug: 'iui-ivf-icsi-tesa',
+    metaTitle: 'IUI/IVF Treatment In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik provides IUI/IVF treatment in Goregaon, offering personalized fertility guidance, reproductive health consultations, and compassionate support for couples pursuing parenthood.',
     title: 'IUI, IVF / ICSI, TESA',
     tabTitle: 'IUI, IVF / ICSI, TESA',
     category: 'Assisted Reproduction',
@@ -533,7 +574,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/ivf-icsi-banner.jpg',
     clinicalImage: '/images/care/details/ivf-icsi-clinical.jpg',
     description:
-      'Modern reproductive medicine gives couples wonderful options when natural conception needs extra help. We guide you through treatments like IUI, IVF, ICSI, and TESA with gentle care, transparent advice, and genuine hope.',
+      'Modern reproductive medicine gives couples wonderful options when natural conception needs extra help. We guide you through IUI/IVF Treatment in Goregaon, including IUI, IVF, ICSI, and TESA, with gentle care, transparent advice, and genuine hope.',
     highlights: [
       'Gentle Intrauterine Insemination (IUI) guidance',
       'Personalized IVF protocols for optimal embryo growth',
@@ -549,7 +590,10 @@ export const treatmentsData = [
       'Safe Day-Care Procedures',
     ],
     overview:
-      'Advanced fertility treatments don’t have to feel intimidating. Dr. Sakshi Naik explains every step clearly—from simple IUI to advanced IVF—so you always know what to expect, feel supported by a compassionate team, and have the highest chance of bringing your baby home.',
+      'Advanced fertility treatments don’t have to feel intimidating. Dr. Sakshi Naik provides IUI/IVF Treatment in Goregaon and explains every step clearly—from simple IUI to advanced IVF—so you always know what to expect, feel supported by a compassionate team, and have the highest chance of bringing your baby home.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik for IUI/IVF Treatment in Goregaon can help you find clear answers, peace of mind, and gentle care.',
+    seoKeyword: 'IUI/IVF Treatment in Goregaon',
     situationsRecommended: [
       {
         text: 'Fallopian tubes are blocked or you have severe pelvic scarring',
@@ -610,7 +654,10 @@ export const treatmentsData = [
   },
   {
     id: 8,
-    slug: 'advanced-laparoscopy-and-hysteroscopy',
+    slug: 'laparoscopic-gynaecologist-goregaon',
+    legacySlug: 'advanced-laparoscopy-and-hysteroscopy',
+    metaTitle: 'Laparoscopic Gynaecologist In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik, a Laparoscopic Gynaecologist in Goregaon, offers expert consultations, minimally invasive treatment guidance, and personalized care for women\'s reproductive health.',
     title: 'Advanced Laparoscopy and Hysteroscopy',
     tabTitle: 'Laparoscopy & Hysteroscopy',
     category: 'Minimally Invasive Surgery',
@@ -620,7 +667,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/laparoscopy-banner.jpg',
     clinicalImage: '/images/care/details/laparoscopy-clinical.jpg',
     description:
-      'When you need gynecological surgery, modern keyhole techniques mean tiny cuts, minimal discomfort, and a quick return home. We treat ovarian cysts, fibroids, and endometriosis with gentle, precise care.',
+      'When you need gynecological surgery, modern keyhole techniques mean tiny cuts, minimal discomfort, and a quick return home. We offer Laparoscopic Treatment in Goregaon for ovarian cysts, fibroids, and endometriosis with gentle, precise care.',
     highlights: [
       'Keyhole surgery with tiny incisions and minimal marks',
       'Removal of ovarian cysts and uterine fibroids',
@@ -635,7 +682,10 @@ export const treatmentsData = [
       'Home Within 24 Hours',
     ],
     overview:
-      'Traditional surgery with large cuts and long hospital stays is rarely needed today. Using high-definition cameras and tiny instruments, Dr. Sakshi Naik treats pelvic problems through miniature keyholes, helping you heal quickly, with very little pain and barely visible marks.',
+      'Traditional surgery with large cuts and long hospital stays is rarely needed today. Using high-definition cameras and tiny instruments, Dr. Sakshi Naik provides Laparoscopic treatment in Goregaon, treating pelvic problems through miniature keyholes, helping you heal quickly, with very little pain and barely visible marks.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik for Laparoscopic treatment in Goregaon can help you find clear answers, peace of mind, and gentle care.',
+    seoKeyword: 'Laparoscopic Treatment in Goregaon',
     situationsRecommended: [
       {
         text: 'Ovarian cysts that are persistent, causing pain, or not shrinking with medicine',
@@ -696,7 +746,10 @@ export const treatmentsData = [
   },
   {
     id: 9,
-    slug: 'gynaecological-care',
+    slug: 'gynaecological-treatment-goregaon',
+    legacySlug: 'gynaecological-care',
+    metaTitle: 'Gynaecological Treatment In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik provides gynaecological treatment in Goregaon, offering expert consultations, personalized care, and support for women\'s reproductive health and wellness.',
     title: 'Gynaecological Care',
     tabTitle: 'Gynaecological Care',
     category: 'General Gynaecology',
@@ -706,7 +759,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/gynaecological-care-banner.jpg',
     clinicalImage: '/images/care/details/gynaecological-care-clinical.jpg',
     description:
-      'Your everyday reproductive health deserves attentive, respectful care. From irregular periods and pelvic pain to routine Pap smears and birth control advice, we provide a warm, private place to care for your body.',
+      'Your everyday reproductive health deserves attentive, respectful care. Our Gynaecological Treatment in Goregaon covers irregular periods and pelvic pain to routine Pap smears and birth control advice, providing a warm, private pace to care for your body.',
     highlights: [
       'Friendly consultations for all general gynecological concerns',
       'Effective relief for heavy bleeding and severe period cramps',
@@ -721,7 +774,10 @@ export const treatmentsData = [
       'Safe Birth Control Advice',
     ],
     overview:
-      'Every woman deserves to feel comfortable, healthy, and understood. Whether you are dealing with troublesome period cramps, unusual discharge, or simply need your routine yearly checkup, Dr. Sakshi Naik offers friendly, non-judgmental guidance and gentle solutions.',
+      'Every woman deserves to feel comfortable, healthy, and understood. Whether you are dealing with troublesome period cramps, unusual discharge, or simply need your routine yearly checkup, Dr. Sakshi Naik provides Gynaecological Treatment in Goregaon with friendly, non-judgmental guidance and gentle solutions.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik for Gynaecological Treatment in Goregaon can help you find clear answers, peace of mind, and gentle care.',
+    seoKeyword: 'Gynaecological Treatment in Goregaon',
     situationsRecommended: [
       {
         text: 'Heavy bleeding, painful cramps, or periods that arrive unpredictably',
@@ -782,7 +838,10 @@ export const treatmentsData = [
   },
   {
     id: 10,
-    slug: 'urogynaecology',
+    slug: 'urogynaecologist-goregaon',
+    legacySlug: 'urogynaecology',
+    metaTitle: 'Urogynaecologist In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik offers urogynaecology care in Goregaon, providing expert consultations and personalized treatment guidance for bladder, pelvic floor, and urinary health concerns.',
     title: 'Urogynaecology',
     tabTitle: 'Urogynaecology',
     category: 'Pelvic Floor Medicine',
@@ -792,7 +851,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/urogynaecology-banner.jpg',
     clinicalImage: '/images/care/details/urogynaecology-clinical.jpg',
     description:
-      'Bladder leaks and pelvic heaviness are very common, but you don’t have to suffer in silence. We provide caring, confidential solutions to help strengthen your pelvic floor and restore your daily comfort and confidence.',
+      'Bladder leaks and pelvic heaviness are very common, but you don’t have to suffer in silence. Our Urogynaecologist in Goregaon provides caring, confidential solutions to help strengthen your pelvic floor and restore your daily comfort and confidence.',
     highlights: [
       'Confidential care for bladder leakage when coughing or sneezing',
       'Support for urgent bladder urges and frequent bathroom trips',
@@ -807,7 +866,10 @@ export const treatmentsData = [
       'Quick & Gentle Solutions',
     ],
     overview:
-      'Many women feel shy or think that leaking urine when laughing or coughing is just a normal part of having babies or growing older. It is not something you have to live with. Dr. Sakshi Naik offers gentle, private care—starting with simple exercises and modern treatments that truly work.',
+      'Many women feel shy or think that leaking urine when laughing or coughing is just a normal part of having babies or growing older. It is not something you have to live with. Urogynaecologist in Goregaon, Dr. Sakshi Naik offers gentle, private car/starting with simple exercises and modern treatments that truly work.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik, a Urogynaecologist in Goregaon, can help you find clear answers, peace of mind, and gentle care.',
+    seoKeyword: 'Urogynaecologist in Goregaon',
     situationsRecommended: [
       {
         text: 'Leaking a little urine when you cough, sneeze, laugh, or go for a run',
@@ -868,7 +930,10 @@ export const treatmentsData = [
   },
   {
     id: 11,
-    slug: 'gynae-oncology',
+    slug: 'gynaecological-cancer-treatment-goregaon',
+    legacySlug: 'gynae-oncology',
+    metaTitle: 'Gynaecological Cancer Treatment In Goregaon | Dr.Sakshi Naik',
+    metaDescription: 'Dr. Sakshi Naik provides gynaecological cancer care in Goregaon, offering expert consultations, early detection guidance, and personalized treatment support for women\'s health.',
     title: 'Gynae-Oncology',
     tabTitle: 'Gynae-Oncology',
     category: 'Preventive & Cancer Care',
@@ -878,7 +943,7 @@ export const treatmentsData = [
     bannerImage: '/images/service/banners/gynae-oncology-banner.jpg',
     clinicalImage: '/images/care/details/gynae-oncology-clinical.jpg',
     description:
-      'When it comes to reproductive wellness, early detection is everything. We provide gentle cancer screenings, HPV vaccines, and prompt evaluations for unusual bleeding or symptoms, walking beside you with clear and caring guidance.',
+      'When it comes to reproductive wellness, early detection is everything. We provide Gynaecological Cancer Treatment in Goregaon, gentle cancer screenings, HPV vaccines, and prompt evaluations for unusual bleeding or symptoms, walking beside you with clear and caring guidance.',
     highlights: [
       'Routine cancer screening and early wellness checks',
       'Cervical Pap smears and high-risk HPV testing',
@@ -893,7 +958,10 @@ export const treatmentsData = [
       'Caring Family Guidance',
     ],
     overview:
-      'Hearing about cancer screenings can cause anxiety, but finding small changes early is the best way to stay healthy and safe. Dr. Sakshi Naik explains findings in simple, everyday language, conducts gentle in-clinic tests, and coordinates comprehensive care with warmth and deep empathy.',
+      'Hearing about cancer screenings can cause anxiety, but finding small changes early is the best way to stay healthy and safe. Dr. Sakshi Naik provides Gynaecological Cancer Treatment in Goregaon, explains findings in simple, everyday language, conducts gentle in-clinic tests, and coordinates comprehensive care with warmth and deep empathy.',
+    solutionsIntro:
+      'Every woman\'s health journey is unique. Here are common situations and symptoms where consulting Dr. Sakshi Naik for Gynaecological Cancer Treatment in Goregaon can help you find clear answers, peace of mind, and gentle care.',
+    seoKeyword: 'Gynaecological Cancer Treatment in Goregaon',
     situationsRecommended: [
       {
         text: 'Any vaginal bleeding or spotting that happens after you have gone through menopause',

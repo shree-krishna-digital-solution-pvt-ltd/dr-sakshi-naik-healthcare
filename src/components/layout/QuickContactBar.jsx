@@ -18,14 +18,14 @@ export default function QuickContactBar() {
       subtitle: 'Send us a Message',
       title: clinicInfo.email,
       href: `mailto:${clinicInfo.email}`,
-      titleColor: 'text-[#E94E9A]',
+      titleColor: 'text-[#BD185D]',
     },
     {
       icon: '/images/icons/placeholder.png',
       subtitle: 'Visit our Location',
       title: `${clinicInfo.address.line1}, Goregaon East`,
       href: clinicInfo.locations?.[0]?.directionsUrl || 'https://maps.google.com',
-      titleColor: 'text-[#8B5CF6]',
+      titleColor: 'text-[#6D28D9]',
     },
   ];
 
@@ -59,12 +59,12 @@ export default function QuickContactBar() {
 
               {/* Text: Italic subtitle + Colored Title */}
               <div className="flex-1 min-w-0">
-                <p className="text-[13px] sm:text-sm font-medium italic text-gray-500">
+                <p className="text-[13px] sm:text-sm font-medium italic text-slate-600">
                   {card.subtitle}
                 </p>
-                <h4 className={`text-sm sm:text-base font-bold ${card.titleColor} truncate mt-0.5 tracking-tight`}>
+                <p className={`text-sm sm:text-base font-bold ${card.titleColor} truncate mt-0.5 tracking-tight`}>
                   {card.title}
-                </h4>
+                </p>
               </div>
             </a>
           ))}

@@ -27,11 +27,13 @@ export default function Footer() {
             <img
               src="/images/icons/phone-call.png"
               alt="Phone"
+              width="24"
+              height="24"
               className="w-4.5 h-4.5 sm:w-6 sm:h-7 object-contain brightness-0 invert"
             />
           </div>
           <div>
-            <span className="italic text-[10px] sm:text-xs block text-white/90 tracking-wide">
+            <span className="italic text-[10px] sm:text-xs block text-white font-medium tracking-wide">
               Give us a Call
             </span>
             <a
@@ -44,11 +46,13 @@ export default function Footer() {
         </div>
 
         {/* Middle Block (Maternity Pink - #E94E9A) */}
-        <div className="bg-[#E94E9A] py-3 px-4 sm:p-6 lg:p-8 flex items-center gap-3 sm:gap-4 text-white">
+        <div className="bg-[#c02674] py-3 px-4 sm:p-6 lg:p-8 flex items-center gap-3 sm:gap-4 text-white">
           <div className="w-9 h-9 sm:w-12 sm:h-12 rounded-full border border-white/40 flex items-center justify-center shrink-0">
             <img
               src="/images/icons/email.png"
               alt="Email"
+              width="24"
+              height="24"
               className="w-4.5 h-4.5 sm:w-6 sm:h-7 object-contain brightness-0 invert"
             />
           </div>
@@ -71,6 +75,8 @@ export default function Footer() {
             <img
               src="/images/icons/placeholder.png"
               alt="Location"
+              width="24"
+              height="24"
               className="w-4.5 h-4.5 sm:w-6 sm:h-7 object-contain brightness-0 invert"
             />
           </div>
@@ -178,7 +184,7 @@ export default function Footer() {
               <img 
                 src="/images/logo/logo.png" 
                 alt="Women’s Healthcare and Fertility Services Logo"
-                className="h-10 sm:h-14 lg:h-16 w-auto object-contain shrink-0"
+                width="64" height="64" className="h-10 sm:h-14 lg:h-16 w-auto object-contain shrink-0"
               />
               <div className="flex flex-col justify-center text-left">
                 <span 
@@ -244,7 +250,7 @@ export default function Footer() {
                 className="flex items-center gap-2 hover:text-[#1da1f2] transition-colors group p-0.5"
                 aria-label="Twitter"
               >
-                <span className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#1da1f2] text-white flex items-center justify-center font-bold text-[11px] sm:text-xs group-hover:scale-110 transition-transform shadow-xs">
+                <span className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#0f1419] text-white flex items-center justify-center font-bold text-[11px] sm:text-xs group-hover:scale-110 transition-transform shadow-xs">
                   𝕏
                 </span>
                 <span className="hidden sm:inline font-semibold text-slate-700 group-hover:text-[#1da1f2]">Twitter</span>
@@ -271,7 +277,7 @@ export default function Footer() {
           </div>
 
           {/* Copyright strip with designer credit */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-1 sm:gap-2 text-center text-xs text-slate-400 pt-2 sm:pt-2.5 border-t border-slate-100 w-full">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-1 sm:gap-2 text-center text-xs text-slate-600 pt-2 sm:pt-2.5 border-t border-slate-100 w-full">
             <p>
               &copy; {new Date().getFullYear()} {clinicInfo.doctorName} - Women's Healthcare &amp; Fertility Care.
             </p>

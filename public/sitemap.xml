@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- 1. Home Page -->
+  <url>
+    <loc>https://drsakshinaik.com/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- 2. About Page -->
+  <url>
+    <loc>https://drsakshinaik.com/#/womens-healthcare-specialist-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- 3. Maternity Care -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/pregnancy-care-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 4. Labour and Delivery -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/labour-and-delivery-hospital-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 5. High-Risk Pregnancy Care -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/high-risk-pregnancy-care-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 6. Preconception Counselling -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/pregnancy-planning-doctor-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 7. Adolescence & Menopause Care -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/menopause-treatment-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 8. Fertility Care & Counselling -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/fertility-counselling-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 9. IUI, IVF / ICSI, TESA -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/iui-ivf-treatment-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 10. Advanced Laparoscopy & Hysteroscopy -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/laparoscopic-gynaecologist-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 11. Gynaecological Care -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/gynaecological-treatment-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 12. Urogynaecology -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/urogynaecologist-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 13. Gynae-Oncology -->
+  <url>
+    <loc>https://drsakshinaik.com/#/treatments/gynaecological-cancer-treatment-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 14. Pregnancy Care FAQs -->
+  <url>
+    <loc>https://drsakshinaik.com/#/pregnancy-care-faqs</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 15. Contact / Clinic Near Goregaon -->
+  <url>
+    <loc>https://drsakshinaik.com/#/gynaecologist-clinic-near-goregaon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+</urlset>
+

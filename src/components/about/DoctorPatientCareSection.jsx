@@ -5,7 +5,7 @@ import { clinicInfo } from '../../data/clinicInfo.js';
  * About Doctor & Patient Care Philosophy Section
  * "Welcome To Dr. Sakshi Naik / Setting The Standards in Women’s & Maternal Care"
  */
-export default function DoctorPatientCareSection({ onBookAppointment, className = '' }) {
+export default function DoctorPatientCareSection({ onBookAppointment, className = '', page = 'home' }) {
   const checklist = [
     'Complete Maternity Care',
     'High-Risk Pregnancy Support',
@@ -43,7 +43,15 @@ export default function DoctorPatientCareSection({ onBookAppointment, className 
               className="text-sm md:text-base text-slate-600 leading-relaxed mb-8 font-normal"
               style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
             >
-              {clinicInfo.doctorName} offers dedicated obstetric, fertility, and gynaecological care focused on compassion, medical precision, and patient empowerment. From pre-pregnancy planning and high-risk maternity management to advanced reproductive therapies and minimally invasive surgeries, every consultation is designed around personalized attention, comfort, and safety.
+              {page === 'about' ? (
+                <>
+                  {clinicInfo.doctorName}, <strong className="font-semibold text-[#0B5DA7]">a Women&apos;s Healthcare Specialist in Goregaon</strong>, offers dedicated obstetric, fertility, and gynaecological care focused on compassion, medical precision, and patient empowerment. From pre-pregnancy planning and high-risk maternity management to advanced reproductive therapies and minimally invasive surgeries, every consultation is designed around personalized attention, comfort, and safety.
+                </>
+              ) : (
+                <>
+                  {clinicInfo.doctorName}, <strong className="font-semibold text-[#0B5DA7]">The Best Gynaecologist in Goregaon</strong>, offers dedicated obstetric, fertility, and gynaecological care focused on compassion, medical precision, and patient empowerment. From pre-pregnancy planning and high-risk maternity management to advanced reproductive therapies and minimally invasive surgeries, every consultation is designed around personalized attention, comfort, and safety.
+                </>
+              )}
             </p>
 
             {/* 6-Point Checklist */}

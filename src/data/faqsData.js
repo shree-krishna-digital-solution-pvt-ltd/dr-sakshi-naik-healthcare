@@ -18,30 +18,30 @@ export const faqsData = [
     category: 'pregnancy',
     question: 'How often do I need to visit for pregnancy checkups?',
     answer:
-      'In the first few months, visits are usually once every 4 weeks. As your due date gets closer (around week 28 to 36), we see you every two weeks. In the final month, we meet every week to monitor your baby’s position, heartbeat, and ensure you feel calm and ready for delivery.',
+      'In the first few months, visits are usually once every 4 weeks. As your due date gets closer (around weeks 28 to 36), we see you every two weeks. In the final month, we meet every week to monitor your baby’s position, heartbeat, and ensure you feel calm and ready for delivery. Regular pregnancy care helps monitor your baby’s growth, check your blood pressure, and address concerns. However, your schedule may vary depending on your health and pregnancy risks. Always follow your doctor’s advice.',
   },
   {
     id: 'faq-preg-2',
     category: 'pregnancy',
-    question: 'When should I have my ultrasound scans done?',
+    question: 'When Should I have my Ultrasound scans done?',
     answer:
-      'Most pregnancies include four key scans: a dating and viability scan at 6–8 weeks to confirm the heartbeat, a combined screening scan at 11–13 weeks, a detailed anomaly scan at 18–20 weeks to check baby’s organs, and growth/Doppler scans in the third trimester to track baby’s weight and fluid levels.',
+      'During pregnancy, ultrasound scans are usually scheduled around 6–9 weeks to confirm the pregnancy, 11–14 weeks for the first-trimester screening, and 18–22 weeks for the detailed anatomy scan. Additional scans may be recommended to monitor your baby’s growth or address specific concerns. Proper pregnancy care includes following your doctor’s recommended ultrasound schedule for your health and your baby’s well-being.',
   },
 
   // 2. Fertility & Conception
   {
     id: 'faq-fert-1',
     category: 'fertility',
-    question: 'When should a couple seek help for getting pregnant?',
+    question: 'When Should a couple seek help for getting Pregnant?',
     answer:
-      'If you are under 35 and have been having regular unprotected intercourse for 12 months without conceiving, it is a good time to consult. If you are 35 or older, or have very irregular periods or a history of pelvic surgery, we recommend coming in after 6 months of trying.',
+      'Couples should consider seeking medical advice if pregnancy hasn’t occurred after 12 months of regular, unprotected intercourse. Women aged 35 or older should consult a specialist after six months. Seek help sooner if you have irregular periods, known reproductive conditions, or previous fertility concerns. Early evaluation helps identify causes and explore suitable options.',
   },
   {
     id: 'faq-fert-2',
     category: 'fertility',
     question: 'Does having PCOS mean I cannot get pregnant naturally?',
     answer:
-      'Not at all! Many women with PCOS conceive naturally. PCOS often means an egg is not released regularly every month. With simple dietary tweaks, light regular exercise, and mild oral medicines that help release an egg, most couples achieve pregnancy smoothly.',
+      'No, having PCOS does not mean you cannot get pregnant naturally. Many women with PCOS conceive successfully with appropriate lifestyle changes, cycle monitoring, and medical guidance. Since PCOS can affect ovulation, consult a gynaecologist if your periods are irregular or you’re struggling to conceive. Treatment depends on your individual health needs.',
   },
 
   // 3. Period & Hormones (General Gynecology)
@@ -50,16 +50,16 @@ export const faqsData = [
     category: 'gynecology',
     question: 'Are very painful period cramps normal?',
     answer:
-      'Mild cramping is common, but severe pain that stops you from going to work, school, or daily activities is not something you should just tolerate. It could be a sign of endometriosis, adenomyosis, or fibroids, all of which can be treated effectively.',
+      'Mild period cramps are common, but severe pain that disrupts daily activities is not something you should ignore. It may indicate conditions such as endometriosis, fibroids, or adenomyosis. Consult a gynaecologist if your cramps are intense, worsening, or accompanied by heavy bleeding, dizziness, or persistent pelvic pain. Proper pregnancy care and timely medical evaluation can help address reproductive health concerns and guide appropriate treatment.',
   },
 
   // 4. Surgeries & Keyhole (Laparoscopy & Hysteroscopy)
   {
     id: 'faq-surg-1',
     category: 'surgery',
-    question: 'What is the recovery time after laparoscopic (keyhole) surgery?',
+    question: 'What is the recovery time after Laparoscopic (Keyhole) surgery?',
     answer:
-      'Because laparoscopic surgery uses tiny 5–10mm keyhole incisions rather than a large cut, recovery is remarkably quick. Most patients are walking comfortably within hours and go home the same day or next morning. Light daily activities and desk work can usually resume within 5 to 7 days.',
+      'Recovery after laparoscopic (keyhole) surgery usually takes one to two weeks, depending on the procedure and your overall health. You may experience mild pain, bloating, or fatigue initially. Follow your doctor\'s instructions, avoid heavy lifting, and attend follow-up appointments. More complex surgeries may require additional recovery time and rest.',
   },
 ];
 

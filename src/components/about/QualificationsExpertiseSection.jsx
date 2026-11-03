@@ -85,7 +85,7 @@ export default function QualificationsExpertiseSection({ onBookAppointment, clas
               className="text-sm md:text-base text-slate-600 leading-relaxed mb-8 font-normal"
               style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
             >
-              Choosing our clinic means trusting in specialized surgical fellowships, cutting-edge evidence-based care, and dedicated personal warmth across every stage of your healthcare journey.
+              Choosing our clinic means trusting in a Women's Healthcare Specialist in Goregaon, specialized surgical fellowships, cutting,edge evidence,based care, and dedicated personal warmth across every stage of your healthcare journey.
             </p>
 
             {/* Why Choose Us Feature Points Grid */}

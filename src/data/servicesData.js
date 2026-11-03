@@ -36,13 +36,13 @@ export const servicesData = [
   },
   {
     id: 4,
-    title: 'Comprehensive Gynaecological Care',
-    desc: 'Specialized healthcare support for menstrual irregularities, hormonal health, pelvic floor health, adolescence, and menopause management.',
+    title: 'Comprehensive Gynaecologist Care',
+    desc: 'Specialized healthcare support from the Best Gynaecologist in Goregaon for menstrual irregularities, hormonal health, pelvic floor health, adolescence, and menopause management.',
     linkUrl: '#treatments',
     linkColor: 'text-[#0B5DA7]',
     tintBg: 'bg-amber-500/15',
     image: '/images/service/22.jpg',
-    alt: 'Comprehensive Gynaecological Care - Dr. Sakshi Naik',
+    alt: 'Comprehensive Gynaecologist Care - Dr. Sakshi Naik',
   },
 ];
 

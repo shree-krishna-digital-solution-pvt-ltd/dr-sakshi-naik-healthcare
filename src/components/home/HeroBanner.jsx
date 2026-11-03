@@ -15,7 +15,7 @@ export default function HeroBanner({ onBookAppointment }) {
         <img
           src="/images/banner/g1.png"
           alt={`Mother and Child - ${clinicInfo.clinicName}`}
-          className="w-full h-full object-cover object-[78%_center] sm:object-[82%_center] lg:object-right select-none"
+          loading="eager" fetchpriority="high" className="w-full h-full object-cover object-[78%_center] sm:object-[82%_center] lg:object-right select-none"
         />
       </div>
 

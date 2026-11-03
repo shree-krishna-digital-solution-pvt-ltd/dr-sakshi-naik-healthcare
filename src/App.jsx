@@ -3,37 +3,55 @@ import LocomotiveScroll from 'locomotive-scroll';
 import 'locomotive-scroll/locomotive-scroll.css';
 import { MainLayout } from './layouts/index.js';
 import { HomePage, AboutPage, TreatmentDetailPage, FaqPage, ContactPage } from './pages/index.js';
+import { treatmentsData } from './data/treatmentsData.js';
+import { usePageSEO } from './utils/usePageSEO.js';
 
 export default function App() {
   const parseCurrentRoute = () => {
-    if (typeof window === 'undefined') return { page: 'home', slug: 'maternity-care' };
+    if (typeof window === 'undefined') return { page: 'home', slug: 'pregnancy-care-goregaon' };
     const hash = window.location.hash || '';
     const pathname = window.location.pathname || '';
+    const cleanHash = hash.replace(/^#\/?/, '').toLowerCase();
+    const cleanPath = pathname.replace(/^\//, '').toLowerCase();
+    const currentPath = cleanHash || cleanPath;
 
-    // Check for treatments route: #/treatments/:slug or #treatments/:slug or /treatments/:slug
-    if (hash.includes('treatments/')) {
-      const slug = hash.split('treatments/')[1]?.replace(/[^a-zA-Z0-9_-]/g, '') || 'maternity-care';
-      return { page: 'treatment', slug };
+    // Check for treatments route: treatments/:slug or /treatments/:slug
+    if (currentPath.includes('treatments/')) {
+      const rawSlug = currentPath.split('treatments/')[1]?.replace(/[^a-zA-Z0-9_-]/g, '') || 'pregnancy-care-goregaon';
+      const matched = treatmentsData.find((t) => t.slug === rawSlug || t.legacySlug === rawSlug);
+      return { page: 'treatment', slug: matched ? matched.slug : rawSlug };
     }
-    if (pathname.includes('/treatments/')) {
-      const slug = pathname.split('/treatments/')[1]?.replace(/[^a-zA-Z0-9_-]/g, '') || 'maternity-care';
-      return { page: 'treatment', slug };
+
+    // Check for direct treatment slug without 'treatments/' prefix
+    const directMatch = treatmentsData.find((t) => t.slug === currentPath || t.legacySlug === currentPath);
+    if (directMatch) {
+      return { page: 'treatment', slug: directMatch.slug };
     }
-    if (hash === '#about') {
-      return { page: 'about', slug: 'maternity-care' };
+
+    // About page: SEO slug or legacy alias
+    if (currentPath === 'womens-healthcare-specialist-goregaon' || currentPath === 'about') {
+      return { page: 'about', slug: 'pregnancy-care-goregaon' };
     }
-    if (hash === '#faq') {
-      return { page: 'faq', slug: 'maternity-care' };
+
+    // FAQ page: SEO slug or legacy alias
+    if (currentPath === 'pregnancy-care-faqs' || currentPath === 'faq') {
+      return { page: 'faq', slug: 'pregnancy-care-goregaon' };
     }
-    if (hash === '#contact') {
-      return { page: 'contact', slug: 'maternity-care' };
+
+    // Contact page: SEO slug or legacy alias
+    if (currentPath === 'gynaecologist-clinic-near-goregaon' || currentPath === 'contact') {
+      return { page: 'contact', slug: 'pregnancy-care-goregaon' };
     }
-    return { page: 'home', slug: 'maternity-care' };
+
+    return { page: 'home', slug: 'pregnancy-care-goregaon' };
   };
 
   const [route, setRoute] = useState(parseCurrentRoute);
   const [appointmentModalOpen, setAppointmentModalOpen] = useState(false);
   const locomotiveScrollRef = useRef(null);
+
+  // Synchronize document <title>, dynamic meta tags, and Google JSON-LD schema
+  usePageSEO(route);
 
   // Initialize Locomotive Scroll for smooth scrolling
   useEffect(() => {
@@ -92,22 +110,24 @@ export default function App() {
     };
   }, []);
 
-  const navigateTo = (page, slug = 'maternity-care') => {
+  const navigateTo = (page, slug = 'pregnancy-care-goregaon') => {
     if (page === 'treatment') {
-      setRoute({ page: 'treatment', slug });
-      window.location.hash = `#/treatments/${slug}`;
+      const matched = treatmentsData.find((t) => t.slug === slug || t.legacySlug === slug);
+      const targetSlug = matched ? matched.slug : slug;
+      setRoute({ page: 'treatment', slug: targetSlug });
+      window.location.hash = `#/treatments/${targetSlug}`;
     } else if (page === 'about') {
-      setRoute({ page: 'about', slug: 'maternity-care' });
-      window.location.hash = '#about';
+      setRoute({ page: 'about', slug: 'pregnancy-care-goregaon' });
+      window.location.hash = '#/womens-healthcare-specialist-goregaon';
     } else if (page === 'faq') {
-      setRoute({ page: 'faq', slug: 'maternity-care' });
-      window.location.hash = '#faq';
+      setRoute({ page: 'faq', slug: 'pregnancy-care-goregaon' });
+      window.location.hash = '#/pregnancy-care-faqs';
     } else if (page === 'contact') {
-      setRoute({ page: 'contact', slug: 'maternity-care' });
-      window.location.hash = '#contact';
+      setRoute({ page: 'contact', slug: 'pregnancy-care-goregaon' });
+      window.location.hash = '#/gynaecologist-clinic-near-goregaon';
     } else {
-      setRoute({ page: 'home', slug: 'maternity-care' });
-      window.location.hash = '#home';
+      setRoute({ page: 'home', slug: 'pregnancy-care-goregaon' });
+      window.location.hash = '#/';
     }
     scrollToTop();
   };

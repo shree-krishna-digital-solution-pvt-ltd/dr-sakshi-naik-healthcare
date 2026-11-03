@@ -1,0 +1,14 @@
+# robots.txt for Dr. Sakshi Naik - Women's Healthcare & Fertility
+User-agent: *
+Allow: /
+
+# Disallow build or node artifacts if any
+Disallow: /api/
+Disallow: /*.json$
+
+# Host
+Host: https://drsakshinaik.com
+
+# Sitemap Location
+Sitemap: https://drsakshinaik.com/sitemap.xml
+

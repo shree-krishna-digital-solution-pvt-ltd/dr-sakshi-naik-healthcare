@@ -112,7 +112,7 @@ export default function AppointmentBookingSection({ onBookAppointment }) {
             <div>
               <input
                 type="text"
-                name="name"
+                name="name" id="booking-name" aria-label="Your Full Name"
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Your Name"
@@ -124,7 +124,7 @@ export default function AppointmentBookingSection({ onBookAppointment }) {
             <div>
               <input
                 type="tel"
-                name="phone"
+                name="phone" id="booking-phone" aria-label="Your Phone Number"
                 value={formData.phone}
                 onChange={handleChange}
                 placeholder="Your Phone"
@@ -136,7 +136,7 @@ export default function AppointmentBookingSection({ onBookAppointment }) {
             {/* Row 2: Location & Service */}
             <div>
               <select
-                name="location"
+                name="location" id="booking-location" aria-label="Select Clinic Location"
                 value={formData.location}
                 onChange={handleChange}
                 className="w-full bg-white/60 sm:bg-white backdrop-blur-xs px-3.5 sm:px-4 py-2.5 sm:py-3.5 rounded-sm text-sm text-slate-800 sm:text-slate-600 shadow-xs sm:shadow-sm border border-white/70 sm:border-slate-100 hover:border-white/90 sm:hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#73B737]/60 focus:border-transparent transition-all cursor-pointer font-medium"
@@ -151,7 +151,7 @@ export default function AppointmentBookingSection({ onBookAppointment }) {
 
             <div>
               <select
-                name="service"
+                name="service" id="booking-service" aria-label="Select Type of Service"
                 value={formData.service}
                 onChange={handleChange}
                 className="w-full bg-white/60 sm:bg-white backdrop-blur-xs px-3.5 sm:px-4 py-2.5 sm:py-3.5 rounded-sm text-sm text-slate-800 sm:text-slate-600 shadow-xs sm:shadow-sm border border-white/70 sm:border-slate-100 hover:border-white/90 sm:hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#73B737]/60 focus:border-transparent transition-all cursor-pointer"
@@ -172,7 +172,7 @@ export default function AppointmentBookingSection({ onBookAppointment }) {
             <div>
               <input
                 type="text"
-                name="date"
+                name="date" id="booking-date" aria-label="Appointment Date"
                 value={formData.date}
                 onChange={handleChange}
                 onFocus={(e) => (e.target.type = 'date')}
@@ -186,7 +186,7 @@ export default function AppointmentBookingSection({ onBookAppointment }) {
 
             <div>
               <select
-                name="timeSlot"
+                name="timeSlot" id="booking-timeslot" aria-label="Preferred Time Slot"
                 value={formData.timeSlot || ''}
                 onChange={handleChange}
                 className="w-full bg-white/60 sm:bg-white backdrop-blur-xs px-3.5 sm:px-4 py-2.5 sm:py-3.5 rounded-sm text-sm text-slate-800 sm:text-slate-600 shadow-xs sm:shadow-sm border border-white/70 sm:border-slate-100 hover:border-white/90 sm:hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#73B737]/60 focus:border-transparent transition-all cursor-pointer"
@@ -203,7 +203,7 @@ export default function AppointmentBookingSection({ onBookAppointment }) {
             {/* Row 4: Staff/Doctor & Submit Button */}
             <div>
               <select
-                name="doctor"
+                name="doctor" id="booking-doctor" aria-label="Select Doctor or Specialist"
                 value={formData.doctor}
                 onChange={handleChange}
                 className="w-full bg-white/60 sm:bg-white backdrop-blur-xs px-3.5 sm:px-4 py-2.5 sm:py-3.5 rounded-sm text-sm text-slate-800 sm:text-slate-600 shadow-xs sm:shadow-sm border border-white/70 sm:border-slate-100 hover:border-white/90 sm:hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#73B737]/60 focus:border-transparent transition-all cursor-pointer"

@@ -10,7 +10,7 @@ export default function WhyChooseDrSakshi() {
       title: 'Personalized Care',
       desc: 'Tailored medical consultations and treatment plans designed around your individual health needs and family journey.',
       linkText: 'View More »',
-      linkUrl: '#/treatments/maternity-care',
+      linkUrl: '#/treatments/pregnancy-care-goregaon',
       linkColor: 'text-[#0B5DA7]',
     },
     {
@@ -18,7 +18,7 @@ export default function WhyChooseDrSakshi() {
       title: 'Emergency & Labour Support',
       desc: 'Round-the-clock guidance, active labour monitoring, and dedicated assistance before, during, and after delivery.',
       linkText: 'View More »',
-      linkUrl: '#/treatments/labour-and-delivery',
+      linkUrl: '#/treatments/labour-and-delivery-hospital-goregaon',
       linkColor: 'text-[#0B5DA7]',
     },
     {
@@ -26,7 +26,7 @@ export default function WhyChooseDrSakshi() {
       title: 'Convenient Consultations',
       desc: 'Accessible clinic location, structured consultation hours, and hassle-free appointment scheduling for all patients.',
       linkText: 'View More »',
-      linkUrl: '#contact',
+      linkUrl: '#/gynaecologist-clinic-near-goregaon',
       linkColor: 'text-[#0B5DA7]',
     },
     {
@@ -34,7 +34,7 @@ export default function WhyChooseDrSakshi() {
       title: 'Expert Gynaecologist',
       desc: 'High clinical expertise in maternity monitoring, assisted fertility therapies, and advanced laparoscopic procedures.',
       linkText: 'View More »',
-      linkUrl: '#about',
+      linkUrl: '#/womens-healthcare-specialist-goregaon',
       linkColor: 'text-[#0B5DA7]',
     },
   ];
@@ -85,6 +85,7 @@ export default function WhyChooseDrSakshi() {
               <div className="mt-6 pt-2">
                 <a
                   href={item.linkUrl}
+                  aria-label={`${item.title} - View Details`}
                   className={`text-xs font-bold ${item.linkColor} hover:text-[#E94E9A] uppercase tracking-wider hover:underline transition-colors`}
                 >
                   {item.linkText}

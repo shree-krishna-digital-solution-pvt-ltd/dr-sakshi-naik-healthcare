@@ -55,7 +55,10 @@ export default function TreatmentsShowcase({ onBookAppointment }) {
                   <div className="w-10 h-10 sm:w-11 sm:h-11 flex items-center justify-center shrink-0 transition-transform duration-200 group-hover:scale-105">
                     <img
                       src={item.tabIcon}
-                      alt={item.tabTitle}
+                      alt=""
+                      aria-hidden="true"
+                      width="36"
+                      height="36"
                       className="w-8 h-8 sm:w-9 sm:h-9 object-contain"
                     />
                   </div>
